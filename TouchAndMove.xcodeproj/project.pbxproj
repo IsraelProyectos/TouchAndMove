@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF6398817057F0C006F454D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF6398717057F0C006F454D /* UIKit.framework */; };
+		CCF6398A17057F0C006F454D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF6398917057F0C006F454D /* Foundation.framework */; };
+		CCF6398C17057F0C006F454D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF6398B17057F0C006F454D /* CoreGraphics.framework */; };
+		CCF6399217057F0C006F454D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF6399017057F0C006F454D /* InfoPlist.strings */; };
+		CCF6399417057F0C006F454D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF6399317057F0C006F454D /* main.m */; };
+		CCF6399817057F0C006F454D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF6399717057F0C006F454D /* AppDelegate.m */; };
+		CCF6399A17057F0C006F454D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF6399917057F0C006F454D /* Default.png */; };
+		CCF6399C17057F0C006F454D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF6399B17057F0C006F454D /* Default@2x.png */; };
+		CCF6399E17057F0C006F454D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF6399D17057F0C006F454D /* Default-568h@2x.png */; };
+		CCF639A117057F0C006F454D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF6399F17057F0C006F454D /* MainStoryboard.storyboard */; };
+		CCF639A417057F0C006F454D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF639A317057F0C006F454D /* ViewController.m */; };
+		CCF639AC17057F0C006F454D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF639AB17057F0C006F454D /* SenTestingKit.framework */; };
+		CCF639AD17057F0C006F454D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF6398717057F0C006F454D /* UIKit.framework */; };
+		CCF639AE17057F0C006F454D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF6398917057F0C006F454D /* Foundation.framework */; };
+		CCF639B617057F0C006F454D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF639B417057F0C006F454D /* InfoPlist.strings */; };
+		CCF639B917057F0C006F454D /* TouchAndMoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF639B817057F0C006F454D /* TouchAndMoveTests.m */; };
+		CCF639C317057FE3006F454D /* 3d_Apple_Logo_102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF639C217057FE3006F454D /* 3d_Apple_Logo_102.jpg */; };
+		CECBA3FC1D3A9DA000326B63 /* diana01.png in Resources */ = {isa = PBXBuildFile; fileRef = CECBA3FB1D3A9DA000326B63 /* diana01.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF639AF17057F0C006F454D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF6397C17057F0C006F454D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF6398317057F0C006F454D;
+			remoteInfo = TouchAndMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF6398417057F0C006F454D /* TouchAndMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchAndMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF6398717057F0C006F454D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCF6398917057F0C006F454D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCF6398B17057F0C006F454D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCF6398F17057F0C006F454D /* TouchAndMove-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchAndMove-Info.plist"; sourceTree = "<group>"; };
+		CCF6399117057F0C006F454D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCF6399317057F0C006F454D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCF6399517057F0C006F454D /* TouchAndMove-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchAndMove-Prefix.pch"; sourceTree = "<group>"; };
+		CCF6399617057F0C006F454D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCF6399717057F0C006F454D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCF6399917057F0C006F454D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CCF6399B17057F0C006F454D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CCF6399D17057F0C006F454D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CCF639A017057F0C006F454D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CCF639A217057F0C006F454D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCF639A317057F0C006F454D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCF639AA17057F0C006F454D /* TouchAndMoveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchAndMoveTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF639AB17057F0C006F454D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CCF639B317057F0C006F454D /* TouchAndMoveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchAndMoveTests-Info.plist"; sourceTree = "<group>"; };
+		CCF639B517057F0C006F454D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCF639B717057F0C006F454D /* TouchAndMoveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchAndMoveTests.h; sourceTree = "<group>"; };
+		CCF639B817057F0C006F454D /* TouchAndMoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchAndMoveTests.m; sourceTree = "<group>"; };
+		CCF639C217057FE3006F454D /* 3d_Apple_Logo_102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3d_Apple_Logo_102.jpg; sourceTree = "<group>"; };
+		CECBA3FB1D3A9DA000326B63 /* diana01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diana01.png; path = ../PosicionarPuntsBody/diana01.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF6398117057F0C006F454D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF6398817057F0C006F454D /* UIKit.framework in Frameworks */,
+				CCF6398A17057F0C006F454D /* Foundation.framework in Frameworks */,
+				CCF6398C17057F0C006F454D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF639A617057F0C006F454D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF639AC17057F0C006F454D /* SenTestingKit.framework in Frameworks */,
+				CCF639AD17057F0C006F454D /* UIKit.framework in Frameworks */,
+				CCF639AE17057F0C006F454D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF6397B17057F0C006F454D = {
+			isa = PBXGroup;
+			children = (
+				CCF639C217057FE3006F454D /* 3d_Apple_Logo_102.jpg */,
+				CECBA3FB1D3A9DA000326B63 /* diana01.png */,
+				CCF6398D17057F0C006F454D /* TouchAndMove */,
+				CCF639B117057F0C006F454D /* TouchAndMoveTests */,
+				CCF6398617057F0C006F454D /* Frameworks */,
+				CCF6398517057F0C006F454D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF6398517057F0C006F454D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF6398417057F0C006F454D /* TouchAndMove.app */,
+				CCF639AA17057F0C006F454D /* TouchAndMoveTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF6398617057F0C006F454D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCF6398717057F0C006F454D /* UIKit.framework */,
+				CCF6398917057F0C006F454D /* Foundation.framework */,
+				CCF6398B17057F0C006F454D /* CoreGraphics.framework */,
+				CCF639AB17057F0C006F454D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCF6398D17057F0C006F454D /* TouchAndMove */ = {
+			isa = PBXGroup;
+			children = (
+				CCF6399617057F0C006F454D /* AppDelegate.h */,
+				CCF6399717057F0C006F454D /* AppDelegate.m */,
+				CCF6399F17057F0C006F454D /* MainStoryboard.storyboard */,
+				CCF639A217057F0C006F454D /* ViewController.h */,
+				CCF639A317057F0C006F454D /* ViewController.m */,
+				CCF6398E17057F0C006F454D /* Supporting Files */,
+			);
+			path = TouchAndMove;
+			sourceTree = "<group>";
+		};
+		CCF6398E17057F0C006F454D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF6398F17057F0C006F454D /* TouchAndMove-Info.plist */,
+				CCF6399017057F0C006F454D /* InfoPlist.strings */,
+				CCF6399317057F0C006F454D /* main.m */,
+				CCF6399517057F0C006F454D /* TouchAndMove-Prefix.pch */,
+				CCF6399917057F0C006F454D /* Default.png */,
+				CCF6399B17057F0C006F454D /* Default@2x.png */,
+				CCF6399D17057F0C006F454D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCF639B117057F0C006F454D /* TouchAndMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF639B717057F0C006F454D /* TouchAndMoveTests.h */,
+				CCF639B817057F0C006F454D /* TouchAndMoveTests.m */,
+				CCF639B217057F0C006F454D /* Supporting Files */,
+			);
+			path = TouchAndMoveTests;
+			sourceTree = "<group>";
+		};
+		CCF639B217057F0C006F454D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF639B317057F0C006F454D /* TouchAndMoveTests-Info.plist */,
+				CCF639B417057F0C006F454D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF6398317057F0C006F454D /* TouchAndMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF639BC17057F0C006F454D /* Build configuration list for PBXNativeTarget "TouchAndMove" */;
+			buildPhases = (
+				CCF6398017057F0C006F454D /* Sources */,
+				CCF6398117057F0C006F454D /* Frameworks */,
+				CCF6398217057F0C006F454D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchAndMove;
+			productName = TouchAndMove;
+			productReference = CCF6398417057F0C006F454D /* TouchAndMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF639A917057F0C006F454D /* TouchAndMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF639BF17057F0C006F454D /* Build configuration list for PBXNativeTarget "TouchAndMoveTests" */;
+			buildPhases = (
+				CCF639A517057F0C006F454D /* Sources */,
+				CCF639A617057F0C006F454D /* Frameworks */,
+				CCF639A717057F0C006F454D /* Resources */,
+				CCF639A817057F0C006F454D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF639B017057F0C006F454D /* PBXTargetDependency */,
+			);
+			name = TouchAndMoveTests;
+			productName = TouchAndMoveTests;
+			productReference = CCF639AA17057F0C006F454D /* TouchAndMoveTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF6397C17057F0C006F454D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ahmed Al Sadi";
+			};
+			buildConfigurationList = CCF6397F17057F0C006F454D /* Build configuration list for PBXProject "TouchAndMove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCF6397B17057F0C006F454D;
+			productRefGroup = CCF6398517057F0C006F454D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF6398317057F0C006F454D /* TouchAndMove */,
+				CCF639A917057F0C006F454D /* TouchAndMoveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF6398217057F0C006F454D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF6399217057F0C006F454D /* InfoPlist.strings in Resources */,
+				CCF6399A17057F0C006F454D /* Default.png in Resources */,
+				CECBA3FC1D3A9DA000326B63 /* diana01.png in Resources */,
+				CCF6399C17057F0C006F454D /* Default@2x.png in Resources */,
+				CCF6399E17057F0C006F454D /* Default-568h@2x.png in Resources */,
+				CCF639A117057F0C006F454D /* MainStoryboard.storyboard in Resources */,
+				CCF639C317057FE3006F454D /* 3d_Apple_Logo_102.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF639A717057F0C006F454D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF639B617057F0C006F454D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCF639A817057F0C006F454D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF6398017057F0C006F454D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF6399417057F0C006F454D /* main.m in Sources */,
+				CCF6399817057F0C006F454D /* AppDelegate.m in Sources */,
+				CCF639A417057F0C006F454D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF639A517057F0C006F454D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF639B917057F0C006F454D /* TouchAndMoveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF639B017057F0C006F454D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF6398317057F0C006F454D /* TouchAndMove */;
+			targetProxy = CCF639AF17057F0C006F454D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF6399017057F0C006F454D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF6399117057F0C006F454D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCF6399F17057F0C006F454D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF639A017057F0C006F454D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF639B417057F0C006F454D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF639B517057F0C006F454D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF639BA17057F0C006F454D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCF639BB17057F0C006F454D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF639BD17057F0C006F454D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchAndMove/TouchAndMove-Prefix.pch";
+				INFOPLIST_FILE = "TouchAndMove/TouchAndMove-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlSadi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCF639BE17057F0C006F454D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchAndMove/TouchAndMove-Prefix.pch";
+				INFOPLIST_FILE = "TouchAndMove/TouchAndMove-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlSadi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCF639C017057F0C006F454D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchAndMove.app/TouchAndMove";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchAndMove/TouchAndMove-Prefix.pch";
+				INFOPLIST_FILE = "TouchAndMoveTests/TouchAndMoveTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlSadi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CCF639C117057F0C006F454D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchAndMove.app/TouchAndMove";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchAndMove/TouchAndMove-Prefix.pch";
+				INFOPLIST_FILE = "TouchAndMoveTests/TouchAndMoveTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlSadi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF6397F17057F0C006F454D /* Build configuration list for PBXProject "TouchAndMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF639BA17057F0C006F454D /* Debug */,
+				CCF639BB17057F0C006F454D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF639BC17057F0C006F454D /* Build configuration list for PBXNativeTarget "TouchAndMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF639BD17057F0C006F454D /* Debug */,
+				CCF639BE17057F0C006F454D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF639BF17057F0C006F454D /* Build configuration list for PBXNativeTarget "TouchAndMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF639C017057F0C006F454D /* Debug */,
+				CCF639C117057F0C006F454D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF6397C17057F0C006F454D /* Project object */;
+}
